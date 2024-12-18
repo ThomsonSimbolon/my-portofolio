@@ -1,0 +1,25 @@
+:root {
+  --text-green: #00dc82;
+  --header-height: 4rem !important; /* Contoh nilai */
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+/* Root Bg & Txt */
+.txt-greens {
+  color: var(--text-green) !important;
+}
+
+.bg-greens {
+  background-color: var(--text-green) !important;
+}
+
+.brd-greens {
+  border: 1px solid var(--text-green);
+}
