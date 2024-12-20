@@ -90,7 +90,7 @@ const App = () => {
   // AOS
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 3000,
     });
 
     window.addEventListener("scroll", toggleVisibility);
@@ -311,7 +311,7 @@ const App = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
                 {/* Card 1 */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-indigo-700"
                 >
                   <div className="flex-1 flex overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -340,7 +340,7 @@ const App = () => {
 
                 {/* Card 2 with Responsive Image */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-indigo-700"
                 >
                   <div className="flex-1 flex overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -369,7 +369,7 @@ const App = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
                 {/* Card 1 */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -388,7 +388,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -407,7 +407,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -427,7 +427,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -446,7 +446,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -466,7 +466,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -485,7 +485,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -504,7 +504,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -524,7 +524,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -543,7 +543,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -563,7 +563,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -582,7 +582,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -601,7 +601,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -620,7 +620,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -639,7 +639,7 @@ const App = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-up"
+                  data-aos="flip-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -673,7 +673,7 @@ const App = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
                 {/* Card 1 */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-indigo-700"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -734,7 +734,7 @@ const App = () => {
                 </div>
                 {/* Card 3 */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded
                   flex-1 flex flex-col shadow shadow-indigo-700"
                 >
@@ -778,7 +778,7 @@ const App = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
                 {/* Card 1 Projects */}
                 <a
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   href="https://github.com/ThomsonSimbolon/Aplikasi-E-Course-Berbasis-Web.git"
                   target="_blank"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
@@ -810,7 +810,7 @@ const App = () => {
                 <a
                   href="https://github.com/ThomsonSimbolon/kms-application-web.git"
                   target="_blank"
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -840,7 +840,7 @@ const App = () => {
                 <a
                   href="https://github.com/ThomsonSimbolon/Aplikasi-Pengaduan-Masyarakat.git"
                   target="_blank"
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -870,7 +870,7 @@ const App = () => {
                 <a
                   href="https://github.com/ThomsonSimbolon/Aplikasi-Movies-Berbasis-Web.git"
                   target="_blank"
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -900,7 +900,7 @@ const App = () => {
                 <a
                   href=""
                   target="_blank"
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -930,7 +930,7 @@ const App = () => {
                 <a
                   href="https://github.com/ThomsonSimbolon/Application-Front-End-GoFinance.git"
                   target="_blank"
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
                 >
                   <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
@@ -971,7 +971,7 @@ const App = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-6 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
                 {/* Card 1 */}
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-right"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex flex-col items-center justify-center shadow shadow-indigo-700"
                 >
                   <div className="flex flex-col overflow-hidden rounded-xl divide-y divide-gray-800 hover:bg-opacity-90 transition-[background-opacity]">
@@ -987,7 +987,7 @@ const App = () => {
                 </div>
 
                 <div
-                  data-aos="fade-up"
+                  data-aos="fade-left"
                   className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-indigo-700"
                 >
                   <div className="flex-1 flex flex-col overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">

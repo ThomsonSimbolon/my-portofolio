@@ -24,3 +24,11 @@ html {
 .brd-greens {
   border: 1px solid var(--text-green);
 }
+
+@media (max-width: 1300px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
