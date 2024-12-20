@@ -399,8 +399,8 @@ const App = () => {
                         HTML
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        HTML adalah bahasa markup standar yang digunakan untuk
-                        membuat struktur dan kerangka dasar halaman web.
+                        HTML is a standardized markup language used to create
+                        the structure and basic framework of web pages.
                       </div>
                     </div>
                   </div>
@@ -418,8 +418,8 @@ const App = () => {
                         CSS
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        CSS adalah bahasa yang digunakan untuk mengatur tampilan
-                        visual dari halaman web yang dibuat dengan HTML.
+                        CSS is a language used to organize the visual appearance
+                        of web pages created with HTML.
                       </div>
                     </div>
                   </div>
@@ -437,9 +437,8 @@ const App = () => {
                         Javascript
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        JavaScript adalah bahasa pemrograman yang digunakan
-                        untuk menambahkan fitur dinamis dan interaktif pada
-                        halaman web.
+                        JavaScript is a programming language used to add dynamic
+                        and interactive features to web pages.
                       </div>
                     </div>
                   </div>
@@ -457,8 +456,8 @@ const App = () => {
                         PHP
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        PHP adalah bahasa pemrograman sisi server yang dirancang
-                        untuk membuat aplikasi web dinamis.
+                        PHP is a server-side programming language designed to
+                        create dynamic web applications.
                       </div>
                     </div>
                   </div>
@@ -476,9 +475,8 @@ const App = () => {
                         Java
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        Java adalah bahasa pemrograman berbasis objek
-                        (object-oriented) yang dikembangkan oleh Sun
-                        Microsystems.
+                        Java is an object-based programming language
+                        (object-oriented) programming language.
                       </div>
                     </div>
                   </div>
@@ -496,8 +494,8 @@ const App = () => {
                         CodeIgniter
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        CodeIgniter adalah framework PHP yang ringan dan cepat
-                        untuk membantu pengembang membuat aplikasi web.
+                        CodeIgniter is a lightweight and fast PHP framework to
+                        help developers create web applications.
                       </div>
                     </div>
                   </div>
@@ -515,8 +513,8 @@ const App = () => {
                         ReactJS
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        ReactJS adalah library JavaScript untuk membangun
-                        antarmuka pengguna (UI) yang dinamis dan responsif.
+                        ReactJS is a JavaScript library for building dynamic and
+                        responsive user interfaces (UI).
                       </div>
                     </div>
                   </div>
@@ -534,9 +532,8 @@ const App = () => {
                         React Native
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        React Native adalah framework open-source untuk
-                        membangun aplikasi mobile lintas platform (iOS dan
-                        Android).
+                        React Native is an open-source framework for building
+                        cross-platform mobile apps (iOS and Android).
                       </div>
                     </div>
                   </div>
@@ -554,8 +551,8 @@ const App = () => {
                         API
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        API adalah antarmuka yang memungkinkan aplikasi atau
-                        layanan yang berbeda untuk berkomunikasi satu sama lain.
+                        An API is an interface that allows applications to
+                        communicate with each other.
                       </div>
                     </div>
                   </div>
@@ -573,9 +570,8 @@ const App = () => {
                         GIT
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        GIT adalah sistem kontrol versi yang dirancang untuk
-                        melacak perubahan dalam kode sumber proyek secara
-                        efisien.
+                        GIT is a version control system designed to track
+                        changes in a project source code.
                       </div>
                     </div>
                   </div>
@@ -593,8 +589,8 @@ const App = () => {
                         TailwindCSS
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        Tailwind CSS adalah framework CSS utility-first untuk
-                        dengan cepat membangun desain langsung di markup.
+                        Tailwind CSS is a utility-first CSS framework for
+                        quickly build designs directly in the markup.
                       </div>
                     </div>
                   </div>
@@ -612,8 +608,8 @@ const App = () => {
                         Bootstrap
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        Bootstrap adalah framework front-end yang menyediakan
-                        komponen untuk membuat desain responsif dan modern.
+                        Bootstrap is a framework that provides components for
+                        responsive and modern design.
                       </div>
                     </div>
                   </div>
@@ -631,8 +627,8 @@ const App = () => {
                         PostgreSQL
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        PostgreSQL adalah sistem manajemen basis data relasional
-                        open-source yang canggih dan dapat diperluas.
+                        PostgreSQL is an open-source database management system.
+                        open-source relational database management system.
                       </div>
                     </div>
                   </div>
@@ -650,8 +646,8 @@ const App = () => {
                         MySQL
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        MySQL adalah salah satu sistem manajemen basis data
-                        relasional yang paling populer digunakan.
+                        MySQL is one of the most popular relational database
+                        management systems management system.
                       </div>
                     </div>
                   </div>
@@ -669,9 +665,8 @@ const App = () => {
                         SQLite
                       </p>
                       <div className="text-[15px] text-gray-400 mt-1">
-                        SQLite adalah sistem manajemen basis data relasional
-                        yang ringan dan mandiri. Berbeda dengan database server
-                        lainnya.
+                        SQLite is a lightweight relational database management
+                        system, different from other database servers.
                       </div>
                     </div>
                   </div>
