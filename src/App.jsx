@@ -166,13 +166,17 @@ const App = () => {
             <ul className="flex flex-col items-center py-4  border-t border-gray-800">
               {navLinks.map((link) => (
                 <li className="w-full text-start" key={link.id}>
-                  <a
-                    href={link.path}
-                    className="block py-2 px-4 transition-colors hover:text-gray-400 text-white"
+                  <Link
+                    to={link.id}
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    activeClass="text-white text-gray-400 opacity-1"
+                    className="block py-2 px-4 transition-colors text-gray-400"
                     onClick={toggleMobileMenu}
                   >
                     {link.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
