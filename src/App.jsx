@@ -216,10 +216,10 @@ const App = () => {
                   />
                 </h1>
                 <p className="text-white mb-5 text-balance md:text-justify">
-                  I am a Front-End Web Developer | Web Developer dedicated to
-                  creating responsive, aesthetically pleasing, and functional
-                  user experiences. With expertise in modern web technologies
-                  such as HTML, CSS, JavaScript, and frameworks like React and
+                  I am a Web Programmer dedicated to creating responsive,
+                  aesthetically pleasing, and functional user experiences. With
+                  expertise in modern web technologies such as HTML, CSS,
+                  JavaScript, and frameworks like TailwindCSS, Bootstrap React,
                   Laravel, I have the ability to build intuitive and efficient
                   web applications. I am committed to continuous learning,
                   keeping up with technology, and providing innovative solutions
