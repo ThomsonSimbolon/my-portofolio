@@ -41,6 +41,7 @@ import { navLinks } from "./data";
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-scroll";
 
@@ -62,10 +63,26 @@ const App = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          // Alert jika berhasil menggunakan SweetAlert2
+          Swal.fire({
+            title: "Success!",
+            text: "Your email has been sent successfully.",
+            icon: "success",
+            timer: 1500,
+            confirmButtonText: "OK",
+          }).then(() => {
+            window.location.reload(); // Reload halaman setelah klik OK
+          });
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          // Alert jika gagal menggunakan SweetAlert2
+          Swal.fire({
+            title: "Error!",
+            text: `Failed to send email: ${error.text}`,
+            icon: "error",
+            confirmButtonText: "Try Again",
+          });
+          console.error("FAILED...", error.text); // Debug error di console
         }
       );
   };

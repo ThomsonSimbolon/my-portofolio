@@ -19,6 +19,7 @@
     "react-router-dom": "^7.0.2",
     "react-scroll": "^1.9.0",
     "remixicon": "^4.5.0",
+    "sweetalert2": "^11.15.2",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
