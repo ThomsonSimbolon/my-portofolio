@@ -107,7 +107,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="dark:bg-gray-950">
+    <div className="App">
       {/* Header */}
 
       <header className="md:backdrop-blur md:border-0 border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50 bg-gray-50 dark:bg-gray-950">
