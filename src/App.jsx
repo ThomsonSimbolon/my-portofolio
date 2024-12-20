@@ -205,19 +205,11 @@ const App = () => {
                 <h1 className="font-normal text-white text-2xl mb-5">
                   Hi there &#128075;
                 </h1>
-                <h1 className="font-bold text-4xl text-white mb-5">
+                <h1 className="font-bold text-3xl text-white mb-5">Thomson</h1>
+                <h1 className="font-bold text-3xl md:text-5xl mb-5 text-green-500">
                   <Typewriter
                     options={{
-                      strings: ["Thomson"],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                </h1>
-                <h1 className="font-semibold text-3xl mb-5 text-green-500">
-                  <Typewriter
-                    options={{
-                      strings: ["Front-End Developer | Web Developer"],
+                      strings: ["Web Programmer"],
                       autoStart: true,
                       loop: true,
                     }}
@@ -237,7 +229,7 @@ const App = () => {
                   <a
                     href={MyCV}
                     target="_blank"
-                    className="brd-greens txt-greens shadow-sm shadow-slate-100 flex items-center gap-1 justify-center hover:text-white px-8 py-2 bg-slate-900 hover:border-1 hover:border-slate-900 rounded-full"
+                    className="ring-1 txt-greens shadow-sm shadow-white transition-colors flex items-center gap-1 justify-center hover:!text-white px-8 py-2 hover:bg-gray-700 bg-slate-900 hover:ring-0 rounded-full"
                   >
                     <LiaFileDownloadSolid />
                     Resume
@@ -245,7 +237,7 @@ const App = () => {
                   <a
                     href="https://github.com/ThomsonSimbolon"
                     target="_blank"
-                    className="focus:outline-none shadow-sm shadow-slate-100 flex items-center gap-2 justify-center px-8 py-2 text-gray-200 bg-gray-800 hover:bg-gray-700 rounded-full"
+                    className="ring-1 hover:ring-0 focus:outline-none shadow-sm shadow-white transition-colors flex items-center gap-2 justify-center px-8 py-2 text-gray-200 bg-gray-800 hover:bg-gray-700 rounded-full"
                   >
                     <FaGithub />
                     GitHub
@@ -257,28 +249,28 @@ const App = () => {
                     <a
                       href="https://www.linkedin.com/in/thomson-simbolon-8abab9261/"
                       target="_blank"
-                      className="flex txt-greens ring-1ring-gray-800 shadow-sm shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-blue-600"
+                      className="flex txt-greens ring-1 shadow-sm transition-colors shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-600"
                     >
                       <FaLinkedin />
                     </a>
                     <a
                       href="https://web.facebook.com/profile.php?id=100007241866119"
                       target="_blank"
-                      className="flex txt-greens ring-1 ring-gray-800 shadow-sm shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
+                      className="flex txt-greens ring-1 shadow-sm transition-colors shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
                     >
                       <FaFacebook />
                     </a>
                     <a
                       href="https://wa.me/0895324803217"
                       target="_blank"
-                      className="flex txt-greens ring-1 ring-gray-800 shadow-sm shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
+                      className="flex txt-greens ring-1 shadow-sm transition-colors shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
                     >
                       <FaWhatsapp />
                     </a>
                     <a
                       href="https://www.instagram.com/thomsonsimbolon_/"
                       target="_blank"
-                      className="flex txt-greens ring-1 ring-gray-800 shadow-sm shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
+                      className="flex txt-greens ring-1 shadow-sm transition-colors shadow-white rounded-full hover:bg-neutral-800 hover:ring-0 p-2 items-center gap-1 text-white hover:text-gray-400"
                     >
                       <FaInstagram />
                     </a>
