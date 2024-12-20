@@ -68,10 +68,12 @@ const App = () => {
             title: "Success!",
             text: "Your email has been sent successfully.",
             icon: "success",
-            timer: 1500,
+            draggable: true,
             confirmButtonText: "OK",
-          }).then(() => {
-            window.location.reload(); // Reload halaman setelah klik OK
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.reload();
+            }
           });
         },
         (error) => {
@@ -126,7 +128,7 @@ const App = () => {
               className="cursor-pointer router-link-active router-link-exact-active flex-shrink-0 font-bold text-2xl text-white flex items-end gap-1.5 hover:text-gray-400 transition-colors"
             >
               Thomson
-              <span className="txt-greens inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-primary-50  bg-opacity-10 text-primary-500 text-primary-400 ring-1 ring-inset ring-primary-500 ring-primary-400 ring-opacity-25 mb-0.5">
+              <span className="txt-greens inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-primary-50 bg-opacity-10 text-primary-500 text-primary-400 ring-1 ring-inset ring-primary-500 ring-primary-400 ring-opacity-25 mb-0.5">
                 Portfolio
               </span>
             </a>
