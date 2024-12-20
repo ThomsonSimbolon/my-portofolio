@@ -200,6 +200,9 @@ const App = () => {
             <div className="flex justify-center items-center border-t border-gray-800 p-4 bg-gray-950">
               <a
                 href="#contact"
+                onClick={() => {
+                  toggleMobileMenu();
+                }}
                 className="flex justify-center items-center text-center font-medium rounded-full w-56 md:w-full text-sm gap-x-1 md:p-3 p-2 bg-slate-900 text-white hover:bg-gray-900 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-primary-400"
               >
                 Contact Us
