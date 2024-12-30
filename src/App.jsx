@@ -235,14 +235,14 @@ const App = () => {
                 <h1 className="font-bold text-3xl md:text-5xl mb-5 text-green-500">
                   <Typewriter
                     options={{
-                      strings: ["Web Programmer"],
+                      strings: ["Frontend Developer"],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </h1>
                 <p className="text-white mb-5 text-balance md:text-justify">
-                  I am a Web Programmer dedicated to creating responsive,
+                  I am a Frontend Developer dedicated to creating responsive,
                   aesthetically pleasing, and functional user experiences. With
                   expertise in modern web technologies such as HTML, CSS,
                   JavaScript, and frameworks like TailwindCSS, Bootstrap React,
