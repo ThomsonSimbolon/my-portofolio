@@ -242,7 +242,7 @@ const App = () => {
                   />
                 </h1>
                 <p className="text-white mb-5 text-balance md:text-justify">
-                  I am a Frontend Developer dedicated to creating responsive,
+                  I am a Programmer dedicated to creating responsive,
                   aesthetically pleasing, and functional user experiences. With
                   expertise in modern web technologies such as HTML, CSS,
                   JavaScript, and frameworks like TailwindCSS, Bootstrap React,
