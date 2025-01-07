@@ -235,7 +235,7 @@ const App = () => {
                 <h1 className="font-bold text-3xl md:text-5xl mb-5 text-green-500">
                   <Typewriter
                     options={{
-                      strings: ["Frontend Developer"],
+                      strings: ["Programmer"],
                       autoStart: true,
                       loop: true,
                     }}
