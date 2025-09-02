@@ -35,7 +35,7 @@ import Logo from "./assets/logo.png";
 import LogoKM from "./assets/Logo_Kampus_Merdeka.png";
 import LogoCGi from "./assets/logo_CGi.png";
 import LogoPhone from "./assets/logo_phone.png";
-import MyCV from "./assets/My_CV.pdf";
+// import MyCV from "./assets/My_CV.pdf";
 
 import { navLinks } from "./data";
 import Typewriter from "typewriter-effect";
@@ -252,9 +252,16 @@ const App = () => {
                   to user needs.
                 </p>
                 <div className="flex flex-col md:flex-row gap-2">
-                  <a
+                  {/* <a
                     href={MyCV}
                     target="_blank"
+                    className="ring-1 txt-greens shadow-sm shadow-white transition-colors flex items-center gap-1 justify-center hover:!text-white px-8 py-2 hover:bg-gray-700 bg-slate-900 hover:ring-0 rounded-full"
+                  >
+                    <LiaFileDownloadSolid />
+                    Resume
+                  </a> */}
+                  <a
+                    href=""
                     className="ring-1 txt-greens shadow-sm shadow-white transition-colors flex items-center gap-1 justify-center hover:!text-white px-8 py-2 hover:bg-gray-700 bg-slate-900 hover:ring-0 rounded-full"
                   >
                     <LiaFileDownloadSolid />
@@ -963,6 +970,191 @@ const App = () => {
                         <p className="text-[15px] text-gray-400 mt-1">
                           I have developed various websites using React +
                           ViteJS, TailwindCSS and Rest API.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 7 Projects - Modern Store */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-left"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="Modern Store Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          Modern Store
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed a modern e-commerce store using
+                          Next.js and TailwindCSS with responsive design.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 8 Projects - Open AI */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-right"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="Open AI Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          Open AI Application
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed an AI-powered application using
+                          Python with machine learning capabilities and
+                          intelligent automation features.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 9 Projects - Chatbot AI */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-left"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="Chatbot AI Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          Chatbot AI
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed an intelligent chatbot application
+                          using Python with natural language processing and
+                          conversational AI capabilities.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 10 Projects - Blog Management System */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-right"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="Blog Management System Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          Blog Management System
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed a comprehensive blog management
+                          system using Laravel and TailwindCSS with admin
+                          dashboard and content management features.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 11 Projects - E-Learning Frontend */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-left"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="E-Learning Frontend Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          E-Learning Frontend
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed a modern e-learning platform frontend
+                          using ReactJS and TailwindCSS with interactive course
+                          modules and responsive design.
+                          <span className="ml-2 text-gray-200">(Github)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                {/* Card 12 Projects - Application AI Psychology TEST */}
+                <a
+                  href="#"
+                  target="_blank"
+                  data-aos="fade-right"
+                  className="relative group isolate rounded-xl background-gradient ring-1 ring-gray-800 before:hidden before:lg:block before:absolute before:-inset-[2px] before:h-[calc(100%+4px)] before:w-[calc(100%+4px)] before:z-[-1] before:rounded-[13px] flex-1 flex flex-col shadow shadow-white"
+                >
+                  <div className="flex-1 flex flex-col cursor-pointer overflow-hidden rounded-xl divide-y divide-gray-800 bg-gray-900 hover:bg-opacity-90 transition-[background-opacity]">
+                    <div className="relative">
+                      <img
+                        src={Logo}
+                        alt="AI Psychology TEST Project"
+                        className="object-cover w-full h-64"
+                      />
+                      <div className="absolute inset-0 opacity-50 bg-white transition-opacity" />
+                    </div>
+                    <div className="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+                      <div className="mb-2 pointer-events-none">
+                        <h3 className="text-white text-base font-bold">
+                          Application AI Psychology
+                        </h3>
+                        <p className="text-[15px] text-gray-400 mt-1">
+                          I have developed an AI-powered psychology application
+                          using Node.js and ReactJS with intelligent assessment
+                          algorithms and real-time analysis.
                           <span className="ml-2 text-gray-200">(Github)</span>
                         </p>
                       </div>
